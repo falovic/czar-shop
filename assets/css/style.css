@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
 
 /* Global */
+
 * {
     font-family: 'Larsseit', sans-serif;
 }
@@ -18,10 +19,10 @@ img {
 }
 
 /* Background */
+
 #fluid-1 {
     background-color: #F9FAFB;
 }
-
 
 
 /* Navbar */
@@ -79,3 +80,94 @@ nav .btn-2:hover {
 header {
     padding-bottom: 80px;
 }
+
+/* Hero */
+
+.hero span {
+    display: inline-block;
+    color: #18A95C;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 16px;
+}
+
+.hero h1 {
+    color: #131022;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 72px;
+    padding-bottom: 24px;
+}
+
+.hero p {
+    color: #585C7B;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.hero a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 12px 48px;
+    background-color: #099ECE;
+    border: 1px solid #099ECE;
+    border-radius: 16px;
+}
+
+.hero a:hover {
+    color: #099ECE;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.hero {
+    padding-bottom: 140px;
+}
+
+/* Slider 1 */
+
+.slider h3 {
+    color: #131022;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.slider a {
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #D3FCD2;
+}
+
+.slider .wrapper {
+    border-top: 2px solid #E2E5F1;
+}
+
+.slider a:hover {
+    background-color: #22C55E;
+    transition: 0.5s;
+}
+
+.slider .slide {
+    padding: 0;
+    max-width: 269px;
+    border-top: 2px solid transparent;
+}
+
+.slider .slide:hover {
+    border-top: 2px solid #22C55E;
+}
+
+.slider .in {
+    display: inline-block;
+    text-align: center;
+    padding: 30px 47px;
+    margin-top: 60px;
+    background-color: #EBECFE;
+}
+
