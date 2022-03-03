@@ -261,3 +261,7 @@ header {
     background-color: #131022;
     transition: 0.5s;
 }
+
+.banner1 {
+    padding-bottom: 100px;
+}
