@@ -7,33 +7,34 @@
     line-height: 44px;
 }
 
-.slider .arrow {
+.arrow {
     padding: 12px;
     border-radius: 50%;
     background-color: #D3FCD2;
 }
 
-.slider .arrow:hover {
+.arrow:hover {
     background-color: #22C55E;
     transition: 0.5s;
 }
 
-.slider .wrapper {
+.wrapper {
     border-top: 2px solid #E2E5F1;
 }
 
-.slider .slide {
+.slide {
     /* padding: 0;
     max-width: 269px; */
     border-top: 2px solid transparent;
     text-align: center;
 }
 
-.slider .slide:hover {
+.slide:hover {
     border-top: 2px solid #22C55E;
+    transition: 0.5s;
 }
 
-.slider .in {
+.in {
     display: inline-block;
     text-align: center;
     padding: 30px 47px;
@@ -57,7 +58,7 @@
 
 /* Slider 2 */
 
-.slider2 .in span {
+.in span {
 
     color: #FAFBFF;
     font-size: 12px;
@@ -69,4 +70,66 @@
     padding: 0 8px;
     border-radius: 20px;
     background-color: #EF4444;
+}
+
+.in+p {
+    color: #3E4265;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.fa-star {
+    color: #B77B04;
+}
+
+.star {
+    color: #3E4A5E;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.star:hover .fa-star {
+    color: #d38919;
+}
+
+.star:hover {
+    color: #3E4A5E;
+}
+
+.price {
+    color: #3E4265;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.price span {
+    color: #B4B7C9;
+    text-decoration: line-through;
+    text-decoration-color: #FAA18E;
+}
+
+.cart {
+    color: #131022;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 5px 24px;
+    border: 1px solid #B4B7C9;
+    border-radius: 16px;
+}
+
+.cart:hover {
+    color: #fff;
+    background-color: #22C55E;
+    border: 1px solid #22C55E;
+    transition: 0.5s;
+}
+
+.fa-cart-shopping:hover {
+    color: #fff;
+    transition: -1s;
+    transition: 0.5s;
 }
