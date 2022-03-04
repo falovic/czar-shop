@@ -82,3 +82,68 @@
 }
 
 /* Banner 2 */
+
+.banner2 h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 72px;
+    padding-top: 106px;
+}
+
+.banner2 h2 span {
+    color: #AC223A;
+}
+
+.banner2 p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.banner2 p~div {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter span {
+    color: #131022;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 15px 17px;
+    margin-right: 10px;
+    display: inline-block;
+    border: 1px solid #fff;
+}
+
+.time span {
+    color: #131022;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 4px 13.5px 0;
+    margin-right: 10px;
+}
+
+.banner2 a {
+    color: #131022;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 48px;
+    margin-top: 24px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 16px;
+}
+
+.banner2 a:hover {
+    color: #fff;
+    background-color: transparent;
+    transition: 0.5s;
+    border: 1px solid #fff;
+}
