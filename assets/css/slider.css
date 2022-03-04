@@ -56,7 +56,7 @@
     padding-top: 16px;
 }
 
-/* Slider 2 */
+/* Slider 2 & 3*/
 
 .in span {
 
@@ -132,4 +132,52 @@
     color: #fff;
     transition: -1s;
     transition: 0.5s;
+}
+
+/* Slider 3 */
+.shop span {
+    color: #3E4265;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-right: 1rem;
+}
+
+.shop a {
+    color: #131022;
+}
+
+.shop a:hover {
+    color: #fff;
+}
+
+.filter {
+    z-index: 1;
+    position: relative;
+    top: 60px;
+}
+.filter a {
+    color: #585C7B;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 2px 16px;
+    margin: 0 1rem;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.filter a:hover {
+    color: #EF4444;
+    border: 1px solid #EF4444;
+    transition: 0.5s;
+}
+
+.filter a:focus {
+    color: #EF4444;
+    border: 1px solid #EF4444;
+}
+
+.slider3 .in {
+    margin-top: 124px;
 }

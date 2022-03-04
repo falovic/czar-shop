@@ -27,6 +27,16 @@ img {
     height: 525px;
 }
 
+#fluid-3 {
+    background-color: #FDF6FE;
+    padding-top: 100px;
+}
+
+#fluid-4 {
+    background-image: url('../img/banner3-img.svg');
+    height: 684px;
+}
+
 /* Scrollbar */
 
 ::-webkit-scrollbar {
