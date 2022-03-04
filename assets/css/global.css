@@ -21,3 +21,26 @@ img {
 #fluid-1 {
     background-color: #F9FAFB;
 }
+
+#fluid-2 {
+    background-image: url('../img/banner2-img.svg');
+    height: 525px;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ECF1F4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #484ACF;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #383aa5;
+}
