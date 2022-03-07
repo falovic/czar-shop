@@ -80,4 +80,8 @@ img {
         background-position: center;
         background-size: cover;
     }
+
+    #fluid-4 {
+        height: calc(150vw);     
+    }
 }

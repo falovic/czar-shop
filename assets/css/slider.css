@@ -222,6 +222,10 @@
     display: none;
 }
 
+.filter-mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 991.5px) {
 
     .slider .col-lg-5 {
@@ -240,5 +244,13 @@
 
     .wrapper .pc {
         display: none;
+    }
+
+    .filter {
+        display: none;
+    }
+
+    .filter-mobile {
+        display: inline-block;
     }
 }

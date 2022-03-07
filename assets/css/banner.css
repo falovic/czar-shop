@@ -165,4 +165,21 @@
     .counter, .time {
         margin: auto;
     }
+
+    .banner3 {
+        padding: 0;
+    }
+
+    .banner3 h2 {
+        font-size: 2rem !important;
+        line-height: 3rem;
+        padding-top: 2rem auto;
+    }
+
+    .banner3 .col-lg-12 > * {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
 }
