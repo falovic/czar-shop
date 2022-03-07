@@ -162,6 +162,10 @@
         margin: 0;
     }
 
+    .banner2 h2 {
+        font-size: 2rem !important;
+    }
+
     .counter, .time {
         margin: auto;
     }
@@ -173,7 +177,7 @@
     .banner3 h2 {
         font-size: 2rem !important;
         line-height: 3rem;
-        padding-top: 2rem auto;
+        padding-top: 2rem;
     }
 
     .banner3 .col-lg-12 > * {

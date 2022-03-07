@@ -82,6 +82,7 @@ img {
     }
 
     #fluid-4 {
-        height: calc(150vw);     
+        height: 342px;  
+        background-position: top right;
     }
 }

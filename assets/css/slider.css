@@ -253,4 +253,9 @@
     .filter-mobile {
         display: inline-block;
     }
+
+    .slider4 .mobile .slide {
+        width: 75%;
+        margin: 0 auto;
+    }
 }
