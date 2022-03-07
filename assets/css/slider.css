@@ -156,6 +156,7 @@
     position: relative;
     top: 60px;
 }
+
 .filter a {
     color: #585C7B;
     font-size: 14px;
@@ -180,4 +181,43 @@
 
 .slider3 .in {
     margin-top: 124px;
+}
+
+/* Slider 4 */
+.slider4 .wrapper {
+    border: none;
+    padding-top: 60px
+}
+
+.slider4 .slide {
+    border: none;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 30px;
+    padding: 40px 15px;
+}
+
+.slider4 p {
+    color: #B4B7C9;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.slider4 a.star {
+    display: block;
+    padding: 12px 0 20px;
+}
+
+.smith {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 30px;
+}
+
+.smith span {
+    color: #131022;
 }

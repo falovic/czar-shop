@@ -37,6 +37,11 @@ img {
     height: 684px;
 }
 
+#fluid-5 {
+    background-color:#FDF6FE;
+    padding-top: 100px;
+}
+
 /* Scrollbar */
 
 ::-webkit-scrollbar {
