@@ -6,11 +6,15 @@ nav li a {
     font-weight: 400;
     line-height: 20px;
     margin: 0 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
 }
 
 nav li a:hover {
     color: #1C0374 !important;
     transition: 0.5s;
+    border: 1px solid #1C0374;
+    border-radius: 8px;
 }
 
 nav ul {

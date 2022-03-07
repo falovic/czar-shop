@@ -18,14 +18,8 @@
     transition: 0.5s;
 }
 
-.wrapper {
-    border-top: 2px solid #E2E5F1;
-}
-
 .slide {
-    /* padding: 0;
-    max-width: 269px; */
-    border-top: 2px solid transparent;
+    border-top: 2px solid #E2E5F1;
     text-align: center;
 }
 
