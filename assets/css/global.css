@@ -8,6 +8,10 @@ a {
     text-decoration: none !important;
 }
 
+ul {
+    padding: 0 !important;
+}
+
 li {
     list-style: none;
 }
@@ -40,6 +44,10 @@ img {
 #fluid-5 {
     background-color:#FDF6FE;
     padding-top: 100px;
+}
+
+#fluid-6 {
+    background-color:#fff;
 }
 
 /* Scrollbar */

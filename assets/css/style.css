@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
 @import '../css/global.css';
-@import '../css/navbar.css';
+@import '../css/header.css';
 @import '../css/hero.css';
 @import '../css/slider.css';
 @import '../css/banner.css';
+@import '../css/footer.css';
