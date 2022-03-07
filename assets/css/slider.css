@@ -215,3 +215,19 @@
 .smith span {
     color: #131022;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 991.5px) {
+
+    .slider .col-lg-5 {
+        display: block;
+        text-align: center !important;
+        margin: 1rem 0;
+    }
+
+    .slide {
+        width: 100%;
+        margin: 30px 200px !important;
+    }
+}

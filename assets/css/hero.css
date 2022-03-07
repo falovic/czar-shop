@@ -45,3 +45,20 @@
 .hero {
     padding-bottom: 140px;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 991.5px) {
+    
+    h1 {
+        font-size: 2rem !important;
+    }
+    .hero img {
+        max-width: 60%;
+    }
+
+    .hero a {
+        display: inline-block;
+        margin: 1rem 0;
+    }
+  }
