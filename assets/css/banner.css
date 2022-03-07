@@ -153,3 +153,16 @@
 .banner3 {
     padding: 90px 0 0 210px;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 991.5px) {
+
+    .banner1 .col-lg-5 {
+        margin: 0;
+    }
+
+    .counter, .time {
+        margin: auto;
+    }
+}

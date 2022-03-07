@@ -218,6 +218,10 @@
 
 /* Responsive */
 
+.wrapper .mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 991.5px) {
 
     .slider .col-lg-5 {
@@ -226,8 +230,15 @@
         margin: 1rem 0;
     }
 
-    .slide {
-        width: 100%;
-        margin: 30px 200px !important;
+    .wrapper .mobile {
+        display: block;
+    }
+
+    .wrapper .mobile .slide {
+        border: none;
+    }
+
+    .wrapper .pc {
+        display: none;
     }
 }
